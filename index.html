@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Personal Portfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <p>just a branch push example</p>
+            <p>today example to create github branch</p>
+            <p>this is an example to create a branch on github</p>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>HI, I'm <span>Manoj Kumar R</span><br>from Chennai</h1>
+            </div>
+        </div>
+    </div>
+    <!---about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about-pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A goal-Oriented Entry Level Frontend Developer with knowledge of HTML,CSS,Javascript and React.js seeking to use technical proficiency and creativity to develop engaging user experiences and advance in a professional career.Looking to leverage effective debugging, code optimization and project collaboration capabilities to produce applications that exceed user expectations.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React js</li>
+                        </ul>
+                    </div>                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>01/2023-08/2023</span><br>junior Front Developer at Edify Technologies Pvt.Ltd chennai.</li>                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2022</span><br>B.E(CSE) from SSN college Of Enginering Chennai.</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!--portfolio-->
+    <div id="portfolio"> 
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                 <div class="work">
+                    <img src="images/calculator.png">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>this is a calculator app to perform the basic calculations</p>
+                        <a href="http://127.0.0.1:5501/html_css_js_projects/Beginner_Projects/calculator/calculator.html"><i class="fa fa-external-link"></i></a>
+                    </div>              
+                 </div>                                     
+                 <div class="work">
+                    <img src="images/calculator.png">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>this is a calculator app to perform the basic calculations</p>
+                        <a href="http://127.0.0.1:5501/html_css_js_projects/Beginner_Projects/calculator/calculator.html"><i class="fa fa-external-link"></i></a>
+                    </div>              
+                 </div>                                     
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">            
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-send-o"></i>manoj8me@gmail.com</p>
+                    <p><i class="fa fa-phone"></i>8778397847</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/manoj_8_me"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/manoj-kumar-r-74a0b3241"><i class="fa fa-linkedin-square"></i></a>
+                    </div>
+                    <a href="images/Resume_Manoj_september.pdf" download class="btn btn2">Download CV</a>
+                </div>                                                
+        </div>
+        <div class="copyright">
+            <p>Copyright @ manoj kumar R</p>       
+        </div>
+    </div>
+    <script src="portfolio.js"></script>    
+</body>
+</html>
