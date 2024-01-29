@@ -250,7 +250,7 @@ nav .fa{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/manoj-mobile-pic.png);
+        background-image: url(images/manoj_image.png);
     }   
     .header-text{
         margin-top: 100%;
